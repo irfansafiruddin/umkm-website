@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f6f6f6;
+}
+
+/* HEADER */
+header {
+    background: #4e73df;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    background: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #4e73df;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 40px;
+    background: white;
+}
+
+.hero button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* PRODUK */
+.produk-section {
+    padding: 20px;
+}
+
+.produk-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* FORM KONTAK */
+.kontak-section {
+    padding: 20px;
+    background: white;
+    margin-top: 20px;
+}
+
+.kontak-section input {
+    padding: 10px;
+    width: 80%;
+    margin: 5px 0;
+}
+
+#btnKirim {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #4e73df;
+    color: white;
+    margin-top: 20px;
+}
+/* Responsive Extra untuk Mobile */
+@media (max-width: 400px) {
+  .card img {
+    height: 160px;
+  }
+
+  .btnBeli {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+}
